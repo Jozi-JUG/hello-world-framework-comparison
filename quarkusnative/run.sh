@@ -1,0 +1,1 @@
+./target/quarkusnative-1.0.0-SNAPSHOT-runner -Xmx20M -Xms20M
