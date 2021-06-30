@@ -5,7 +5,16 @@ The aim is to compare the difference in overhead and memory consumption required
 
 ## Requirements
 
-### Install SDKMAN
+### Install `wrk`
+
+```shell
+git clone https://github.com/wg/wrk.git
+cd wrk
+make
+sudo ln -s $(pwd)/wrk /usr/local/bin/
+```
+
+### Install SDKMAN!
 
 ```shell
 curl -s "https://get.sdkman.io" | bash
