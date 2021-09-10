@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-source ~/.sdkman/bin/sdkman-init.sh
-sdk use java 16.0.1-zulu
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk use java 21.1.0.r16-grl
 ./mvnw package -Pnative -Dquarkus.native.container-build=true
