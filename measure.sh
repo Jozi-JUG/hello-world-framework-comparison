@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 ulimit -n 10000
-DURATION=10
+DURATION=20
 CONC=100
-TESTS=20
+TESTS=100
 
 function measure_jvm() {
   name=$1
