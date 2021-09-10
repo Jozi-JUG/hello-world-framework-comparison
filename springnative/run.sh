@@ -1,1 +1,1 @@
-./target/springnative  -Xmx32M -Xms32M
+./target/springnative  -Xmx64M -Xms64M
